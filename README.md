@@ -22,6 +22,7 @@
 1. 在浏览器书签栏右键选择“添加网页”或“添加书签”。
 2. 名称可以填“采集月报”。
 3. 在“网址”或“URL”栏中复制并粘贴 [getCommitsBookmarklet.js](getCommitsBookmarklet.js) 文件中的**全部内容**。
+   - **注意**：部分浏览器（如 Chrome/Edge）在粘贴时会**自动删掉**开头的 `javascript:`。如果粘贴后发现开头没有这几个字，请手动补全。
 4. 以后在 Commits 页面点击该书签即可唤起工具。
 
 ## 采集结果
