@@ -21,10 +21,7 @@
 ### 方法二：浏览器标签（书签）
 1. 在浏览器书签栏右键选择“添加网页”或“添加书签”。
 2. 名称可以填“采集月报”。
-3. 在“网址”或“URL”栏中输入：
-   ```javascript
-   javascript:(function(){/* 将 getCommits.js 的内容压缩后粘贴在这里 */})();
-   ```
+3. 在“网址”或“URL”栏中复制并粘贴 [getCommitsBookmarklet.js](getCommitsBookmarklet.js) 文件中的**全部内容**。
 4. 以后在 Commits 页面点击该书签即可唤起工具。
 
 ## 采集结果
