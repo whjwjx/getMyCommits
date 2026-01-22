@@ -28,7 +28,12 @@
 2. 名称可以填“采集月报”。
 3. 在“网址”或“URL”栏中复制并粘贴 [getCommitsBookmarklet.js](getCommitsBookmarklet.js) 文件中的**全部内容**。
    - **注意**：部分浏览器（如 Chrome/Edge）在粘贴时会**自动删掉**开头的 `javascript:`。如果粘贴后发现开头没有这几个字，请手动补全。
+
+   ![新建书签填入代码示例](image-2.png)
+
 4. 以后在 Commits 页面点击该书签即可唤起工具。
+
+   ![书签创建完成示例](image-3.png)
 
 ## 采集结果
 采集完成后，浏览器会自动下载一个名为 `GitLab_Export_YYYY-MM.csv` 的文件，你可以直接用 Excel 或 WPS 打开，方便整理月报。
